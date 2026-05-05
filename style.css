@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #32baf0;
+background: linear-gradient(90deg, rgba(50, 186, 240, 1) 17%, rgba(42, 123, 155, 1) 48%, rgba(87, 199, 133, 1) 77%, rgba(237, 221, 83, 1) 100%);
+}
+h1 {
+    text-align: center;
+    color: rgb(22, 27, 7);
+    margin-top: 60px;
+    font-size: 45px;
+}
+.bienvenida {
+    text-align: center;
+    color: rgb(22, 27, 7);
+    font-size: 23px;
+}
+.caja {
+    width: 300px;
+    height: auto;
+    background-color: rgb(120, 236, 107);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+}
+.whatsapp-btn {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128c7e;
+    transform: scale(1.1);
+}
+.navbar { 
+    background: #1a1a1a;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.logo a {
+    text-decoration: none;
+    color: #FFF;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: #FFF;
+}
+.btn-precios {
+    border: 2px solid #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FFF !important;
+}
+.btn-precios:hover {
+    background-color: #FFF;
+    color: #1a1a1a !important;
+}
+.info-section {
+    padding: 100px 10%;
+    text-align: center;
+    margin-top: 50px;
+}
+.contacto-info {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+.btn-nav {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.btn-nav:hover {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+}
